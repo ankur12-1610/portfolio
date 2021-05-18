@@ -10295,6 +10295,7 @@ form .row:first-child .floating-label-form-group {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: auto;
 }
 
 

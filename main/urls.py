@@ -23,6 +23,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 
+
 app_name="main"
 
 urlpatterns = [
@@ -30,4 +31,6 @@ urlpatterns = [
     path('contact/', contact, name = 'contact'),
     path('blog/', blog, name = 'blog'),
     path('myprojects/', myprojects, name = 'myprojects'),
+    url(r'^getdata/', contact),
+    url(r'^$', contact),
 ]

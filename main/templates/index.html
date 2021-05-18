@@ -1,14 +1,15 @@
 {% extends 'base.html' %}
 {% block content %}
+{% load static %}
 
     <body id="page-top">
         <!-- Masthead-->
         <header  class="masthead  text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="static\assets\img\avataaars.svg" alt="..." />
+                <img class="masthead-avatar mb-5" src="{% static 'assets\img\avataaars.svg' %}" alt="..." />
                 <!-- Masthead Heading-->
-                <h2 class="masthead-heading  mb-0">Hi, I am Ankur</h2>
+                <h2 class="masthead-heading  mb-0">Hi, I'm Ankur</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -20,7 +21,7 @@
             </div>
         </header>
          <!-- My Project-->
- <section class="page-section portfolio" id="portfolio" style="background-color: white !important;">
+ <section  class="page-section portfolio" id="portfolio" style="background-color: white !important;">
     <div class="container">
         <!-- My Project Heading-->
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">My Projects</h2>
