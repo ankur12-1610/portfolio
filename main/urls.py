@@ -28,4 +28,6 @@ app_name="main"
 urlpatterns = [
     path("", homepage, name="homepage"),
     path('contact/', contact, name = 'contact'),
+    path('blog/', blog, name = 'blog'),
+    path('myprojects/', myprojects, name = 'myprojects'),
 ]

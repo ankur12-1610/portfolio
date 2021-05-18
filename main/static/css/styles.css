@@ -555,6 +555,11 @@ pre code {
   overflow-y: scroll;
 }
 
+.imgh:hover{
+ width: 50px;
+ height: 50px;
+}
+
 .container,
 .container-fluid,
 .container-xl,
@@ -10200,6 +10205,7 @@ h3 {
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
 }
+
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
